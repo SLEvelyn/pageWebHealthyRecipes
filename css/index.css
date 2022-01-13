@@ -1,0 +1,79 @@
+html {
+    background-color:#FAE5D3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.socialMedia{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.socialMedia ul{
+    list-style: none;
+}
+
+.socialMedia ul li a{
+    display: inline-block;
+    background: transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: 500ms ease;
+    transition: all 500ms ease;
+}
+
+.socialMedia ul li a:hover{
+    padding: 10px 30px;
+}
+
+.logo{
+    width: 48px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.backgroundRecipe {
+    background-color: #FDFEFE;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 20px 40px ;
+}
+
+.backgroundRecipe:hover {
+	box-shadow: 0px 0px 30px rgb(231, 150, 118)
+}
+
+h3{
+    text-shadow: 2px 2px 5px #DA81F5;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+
+
